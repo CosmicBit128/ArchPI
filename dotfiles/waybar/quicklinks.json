@@ -1,0 +1,57 @@
+{
+    "custom/chrome": {
+        "format": "󰈹",
+        "on-click": "~/.config/ml4w/settings/browser.sh",
+        "tooltip-format": "Firefox"
+    },
+    "custom/nautilus": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/files.sh",
+        "tooltip-format": "Nautilus"
+    }, 
+    "custom/vscode": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/vscode.sh",
+        "tooltip-format": "VS Code"
+    }, 
+    "custom/terminal": {
+        	"format": "",
+        	"on-click": "~/.config/ml4w/settings/terminal.sh",
+        	"tooltip-format": "Terminal"
+    },
+    "custom/minecraft": {
+        	"format": "󰍳",
+        	"on-click": "~/.config/ml4w/settings/minecraft.sh",
+        	"tooltip-format": "Minecraft"
+    },
+    "custom/discord": {
+        	"format": "",
+        	"on-click": "~/.config/ml4w/settings/discord.sh",
+        	"tooltip-format": "Discord"
+    },
+    "custom/gimp": {
+        	"format": "",
+        	"on-click": "~/.config/ml4w/settings/gimp.sh",
+        	"tooltip-format": "GIMP"
+    },
+    "custom/texteditor": {
+        	"format": "󱩼",
+        	"on-click": "~/.config/ml4w/settings/text-editor.sh",
+        	"tooltip-format": "Text Editor"
+    },
+    "custom/quicklinkempty": {}, 
+    "group/quicklinks": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/chrome",
+            "custom/nautilus",
+            "custom/vscode",
+            "custom/terminal",
+            "custom/minecraft",
+            "custom/discord",
+            "custom/gimp",
+            "custom/texteditor",
+            "custom/quicklinkempty"
+        ]
+    }
+}
